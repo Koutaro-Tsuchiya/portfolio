@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato' , sans-serif;
+  color: #505962;
+  box-sizing: border-box;
+}
+
+.offset:before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/* Navigatoin */
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-nav li{
+  padding-right: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: rgba(244,102,6,1);
+  transform: translate(0.2rem, 0 );
+  border-bottom:solid;
+  padding-bottom: 0;
+}
+
+/* Landing page */
+
+.home-inner{
+  background-image: url(img/cafe.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+}
+
+.caption h1{
+  font-size: 7.0rem;
+  font-weight: 700;
+  font-family: 'Caveat', cursive;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem 1.0rem black;
+  padding-bottom: 3.0rem;
+}
+
+.caption h3 span{
+  font-size: 2.3rem;
+  text-shadow: .1rem .1rem.8rem black;
+  background-color: rgba(23, 26, 28, 0.6);
+  padding: 0.5rem;
+}
