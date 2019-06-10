@@ -8,17 +8,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-		<link rel="stylesheet" href="index5.css">
+		<link rel="stylesheet" href="css/index5.css">
 
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+
 
     <title>Hello, world!</title>
   </head>
 	<body data-spy="scroll" data-target="#navbarResponsive">
 	<!-- Start Home Section  -->
 	<div id="home">
-	<!-- Navigation -->
+	<!-- Navigation bootstrap-->
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
@@ -39,14 +43,14 @@
 				</li>
 
 				<li class="navbar-item">
-					<a class="nav-link" href="#resources">About</a>
+					<a class="nav-link" href="#resources">INFORMATION</a>
 				</li>
 
 		 </ul>
 		</div>
 	</nav>
 
-  <!-- home -->
+  <!-- home bootstrap-->
   <div id="slides" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active terrace">
@@ -58,10 +62,110 @@
   </div>
   </div>
 	<div class="caption text-center">
-		<h1>K.T cafeaaa</h1>
+		<h1>K.T cafe</h1>
 		<h3><span>Since 2019 In Shibuya </span></h3>
 	</div>
 	</div>
+
+  <!-- concept -->
+  <div class="concept">
+    <div class="concept-title">
+      <h1>concept</h1>
+    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 concept-text">
+            <p>当店は<span>「ひとりでもくつろげる自家焙煎コーヒーのカフェ」</span>です。<br><br>
+            お店オリジナルのブレンドや、自家焙煎のコーヒー、こだわりのケーキを用意してお待ちしています。<br><br>
+            当店で出しているコーヒーの豆も販売しております。</p>
+          </div>
+          <div class="col-6 concept-img">
+            <img src="img/concept.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- menu flexを使ってみた-->
+    <div class="menu">
+      <div class="menu-title">
+        <h1>menu</h1>
+      </div>
+      <div class="flexcontainer">
+        <div class="flexitem">
+          <img src="img/coffee.jpg">
+          <p class="good">Blend Coffee</p>
+          <p class="price">S¥380 L¥430</p>
+        </div>
+        <div class="flexitem">
+          <img src="img/coffee.jpg">
+          <p class="good">Espresso</p>
+          <p class="price">S¥300 L¥350</p>
+        </div>
+        <div class="flexitem">
+          <img src="img/coffee.jpg">
+          <p class="good">Caffé Mocha</p>
+          <p class="price">S¥580 L¥630</p>
+        </div>
+        <div class="flexitem">
+          <img src="img/chocolatecake.jpeg">
+          <p class="good">Chocolatecake</p>
+          <p class="price">¥450</p>
+        </div>
+        <div class="flexitem">
+          <img src="img/fruit.jpg">
+          <p class="good">Fruitcake</p>
+          <p class="price">¥480</p>
+        </div>
+        <div class="flexitem">
+          <img src="img/pumpkin cake.jpeg">
+          <p class="good">Pumpkincake</p>
+          <p class="price">¥520</p>
+        </div>
+      </div>
+    </div>
+
+<!-- information -->
+    <div class="info">
+      <div class="info-title">
+        <h1>information</h1>
+      </div>
+      <div class="info-text">
+				<!-- <p class="txt-center"><strong>and people udagawa</strong><br>
+					〒150-0042<br>
+					東京都渋谷区宇田川10-2 新東京ビル</p>
+				<p class="tel"><img src="shared/img/shared/tel-footer1.png" alt="03-6416-3926" width="400" height="75"><span>ホームページを見たとお伝えいただけるとスムーズです。</span></p> -->
+				<div class="list line30">
+					<dl class="clearfix">
+            <dt>- K.T cafe -</dt>
+            <dd>〒xxx-xxxx</dd>
+            <dd>東京都渋谷区✖✖-✖ 〇〇ビル</dd>
+            <dd><i class="fas fa-phone-square-alt fa-lg"></i>(888)888-8888
+            </dd>
+						<dt>アクセス</dt>
+						<dd>「〇〇駅」✖✖口より徒歩11分</dd>
+					</dl>
+					<dl>
+						<dt>営業時間</dt>
+						<dd>12:00～22:00（FOOD L.O. 22:30）</dd>
+					</dl>
+					<dl>
+						<dt>定休日</dt>
+						<dd>火曜日</dd>
+					</dl>
+          <div class="icon">
+            <a href="#" target="_blnk"><i class="fab fa-facebook-square fa-2x"></i></a>
+      			<a href="#" target="_blnk"><i class="fab fa-twitter-square fa-2x"></i></a>
+      			<a href="#" target="_blnk"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+			</div>
+      </div>
+    </div>
+
+<!-- footer -->
+  <footer
+    <p>	&copy; K.T cafe Theme.</p>
+  </footer>
 
 
     <!-- Optional JavaScript -->
