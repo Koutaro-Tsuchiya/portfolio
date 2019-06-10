@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato' , sans-serif;
+  color: #505962;
+  box-sizing: border-box;
+}
+
+.offset:before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/* Navigatoin */
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-nav li{
+  padding-right: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: rgba(244,102,6,1);
+  transform: translate(0.2rem, 0 );
+  border-bottom:solid;
+  padding-bottom: 0;
+}
+
+/* home */
+.terrace{
+  background-image: url(../img/terrace.jpg);
+}
+
+.inside{
+  background-image: url(../img/inside.jpg);
+}
+
+.kitchin{
+  background-image: url(../img/kitchin.jpg);
+}
+
+.terrace, .inside, .kitchin{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+}
+
+.caption h1{
+  font-size: 7.0rem;
+  font-weight: 700;
+  font-family: 'Caveat', cursive;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem 1.0rem black;
+  padding-bottom: 3.0rem;
+}
+
+.caption h3 span{
+  font-size: 2.3rem;
+  text-shadow: .1rem .1rem.8rem black;
+  background-color: rgba(23, 26, 28, 0.6);
+  padding: 0.5rem;
+}
+
+/* concept */
+.concept{
+  background-color: rgba(58,62,61,1);
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.concept-title h1{
+  color: rgba(216,221,221,1);
+  font-size: 6rem;
+  width: 15rem;
+  border-bottom: solid 0.2rem rgba(199,193,194,1);
+  padding-bottom: 1rem;
+  font-family: 'Caveat', cursive;
+  margin: 0 auto 3rem;
+}
+
+.concept-text p{
+  color: rgba(216,221,221,1);
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.concept-text span{
+  font-weight: 800;
+  color: white;
+}
+
+.concept-img img{
+  width: 23rem;
+  box-shadow: 1rem 1rem 0.5rem rgba(48,28,2,1);
+  transform:skewX(-5deg);
+}
+
+/* menu */
+.menu{
+  padding: 2rem 0;
+  background-color: rgba(207,209,206,1);
+  text-align: center;
+}
+
+.menu-title h1{
+  color: rgba(100,101,101,1);
+  font-size: 6rem;
+  width: 10rem;
+  border-bottom: solid 0.2rem rgba(180,179,178,1);
+  padding-bottom: 0.5rem;
+  font-family: 'Caveat', cursive;
+  margin: 0 auto 3rem;
+}
+
+.flexcontainer{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexitem{
+  margin: 1.2rem;
+  width: 25%;
+}
+
+.flexitem img{
+  width: 15rem;
+  height: 10rem;
+  border-radius: 5%;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(155,156,156,1);
+  border:0.1rem solid rgba(116,114,115,1);
+  background:#fff;
+  padding: 0.3rem;
+}
+
+.flexitem .good{
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* info */
+.info{
+  text-align: center;
+  padding: 2rem 0;
+  /* min-height: 100vh; */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/info-bg.jpeg);
+  color: white;
+}
+
+.info-title h1{
+  color: rgba(171,87,4,1);
+  font-size: 4.5rem;
+  width: 14rem;
+  border-bottom: solid 0.2rem rgba(94,39,2,1);
+  padding-bottom: 0.5rem;
+  font-family: 'Caveat', cursive;
+  margin: 0 auto 3rem;
+}
+
+.info p, .info dl{
+  font-size: 1.3rem;
+}
+
+.icon i{
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.icon i:hover{
+  color: rgba(215,122,1,1);
+}
+
+footer{
+  padding: 1.5rem 0 0.5rem;
+  text-align: center;
+}
