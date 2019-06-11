@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
-body{
+.homepage{
   overflow-x: hidden;
   font-family: 'Lato' , sans-serif;
   color: #505962;
   box-sizing: border-box;
 }
 
-.offset:before{
+.offset:before {
   display: block;
   content: "";
   height: 4rem;
@@ -15,7 +15,7 @@ body{
 }
 
 /* Navigatoin */
-.navbar{
+.navbar {
   text-transform: uppercase;
   font-weight: 700;
   font-size: .9rem;
@@ -23,17 +23,17 @@ body{
   background: rgba(0, 0, 0, 0.6)!important;
 }
 
-.navbar-nav li{
+.navbar-item {
   padding-right: 1.2rem;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   color: white;
   padding-top: .8rem;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover {
   color: rgba(244,102,6,1);
   transform: translate(0.2rem, 0 );
   border-bottom:solid;
@@ -41,19 +41,19 @@ body{
 }
 
 /* home */
-.terrace{
+.terrace {
   background-image: url(../img/terrace.jpg);
 }
 
-.inside{
+.inside {
   background-image: url(../img/inside.jpg);
 }
 
-.kitchin{
+.kitchin {
   background-image: url(../img/kitchin.jpg);
 }
 
-.terrace, .inside, .kitchin{
+.terrace, .inside, .kitchin {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,7 +61,7 @@ body{
   position: relative;
 }
 
-.caption{
+.caption {
   width: 100%;
   max-width: 100%;
   position: absolute;
@@ -70,7 +70,7 @@ body{
   color: white;
 }
 
-.caption h1{
+.caption h1 {
   font-size: 7.0rem;
   font-weight: 700;
   font-family: 'Caveat', cursive;
@@ -79,7 +79,7 @@ body{
   padding-bottom: 3.0rem;
 }
 
-.caption h3 span{
+.caption h3 span {
   font-size: 2.3rem;
   text-shadow: .1rem .1rem.8rem black;
   background-color: rgba(23, 26, 28, 0.6);
@@ -87,13 +87,13 @@ body{
 }
 
 /* concept */
-.concept{
+.concept {
   background-color: rgba(58,62,61,1);
   text-align: center;
   padding: 3rem 0;
 }
 
-.concept-title h1{
+.concept-title h1 {
   color: rgba(216,221,221,1);
   font-size: 6rem;
   width: 15rem;
@@ -103,32 +103,32 @@ body{
   margin: 0 auto 3rem;
 }
 
-.concept-text p{
+.concept-text p {
   color: rgba(216,221,221,1);
   font-size: 1.5rem;
   margin-top: 2rem;
   text-align: left;
 }
 
-.concept-text span{
+.concept-text span {
   font-weight: 800;
   color: white;
 }
 
-.concept-img img{
+.concept-img img {
   width: 23rem;
   box-shadow: 1rem 1rem 0.5rem rgba(48,28,2,1);
   transform:skewX(-5deg);
 }
 
 /* menu */
-.menu{
+.menu {
   padding: 2rem 0;
   background-color: rgba(207,209,206,1);
   text-align: center;
 }
 
-.menu-title h1{
+.menu-title h1 {
   color: rgba(100,101,101,1);
   font-size: 6rem;
   width: 10rem;
@@ -138,7 +138,7 @@ body{
   margin: 0 auto 3rem;
 }
 
-.flexcontainer{
+.flexcontainer {
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -146,12 +146,12 @@ body{
   margin: 0 auto;
 }
 
-.flexitem{
+.flexitem {
   margin: 1.2rem;
   width: 25%;
 }
 
-.flexitem img{
+.flexitem img {
   width: 15rem;
   height: 10rem;
   border-radius: 5%;
@@ -161,7 +161,7 @@ body{
   padding: 0.3rem;
 }
 
-.flexitem .good{
+.flexitem .good {
   margin-top: 0.5rem;
   margin-bottom: 0.2rem;
   font-weight: 600;
@@ -169,7 +169,7 @@ body{
 }
 
 /* info */
-.info{
+.info {
   text-align: center;
   padding: 2rem 0;
   /* min-height: 100vh; */
@@ -180,7 +180,7 @@ body{
   color: white;
 }
 
-.info-title h1{
+.info-title h1 {
   color: rgba(171,87,4,1);
   font-size: 4.5rem;
   width: 14rem;
@@ -190,20 +190,20 @@ body{
   margin: 0 auto 3rem;
 }
 
-.info p, .info dl{
+.info p, .info dl {
   font-size: 1.3rem;
 }
 
-.icon i{
+.icon i {
   color: white;
   margin-right: 0.5rem;
 }
 
-.icon i:hover{
+.icon i:hover {
   color: rgba(215,122,1,1);
 }
 
-footer{
+footer {
   padding: 1.5rem 0 0.5rem;
   text-align: center;
 }
