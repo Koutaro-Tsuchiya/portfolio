@@ -117,7 +117,7 @@
 
 .concept-img img {
   width: 23rem;
-  box-shadow: 1rem 1rem 0.5rem rgba(48,28,2,1);
+  box-shadow: 1rem 1rem .5rem rgba(48,28,2,1);
   transform:skewX(-5deg);
 }
 
@@ -132,8 +132,8 @@
   color: rgba(100,101,101,1);
   font-size: 6rem;
   width: 10rem;
-  border-bottom: solid 0.2rem rgba(180,179,178,1);
-  padding-bottom: 0.5rem;
+  border-bottom: solid .2rem rgba(180,179,178,1);
+  padding-bottom: .5rem;
   font-family: 'Caveat', cursive;
   margin: 0 auto 3rem;
 }
@@ -155,15 +155,15 @@
   width: 15rem;
   height: 10rem;
   border-radius: 5%;
-  box-shadow: 0.5rem 0.5rem 0.5rem rgba(155,156,156,1);
-  border:0.1rem solid rgba(116,114,115,1);
+  box-shadow: .5rem .5rem .5rem rgba(155,156,156,1);
+  border: .1rem solid rgba(116,114,115,1);
   background:#fff;
-  padding: 0.3rem;
+  padding: .3rem;
 }
 
 .flexitem .good {
-  margin-top: 0.5rem;
-  margin-bottom: 0.2rem;
+  margin-top: .5rem;
+  margin-bottom: .2rem;
   font-weight: 600;
   text-decoration: underline;
 }
@@ -184,8 +184,8 @@
   color: rgba(171,87,4,1);
   font-size: 4.5rem;
   width: 14rem;
-  border-bottom: solid 0.2rem rgba(94,39,2,1);
-  padding-bottom: 0.5rem;
+  border-bottom: solid .2rem rgba(94,39,2,1);
+  padding-bottom: .5rem;
   font-family: 'Caveat', cursive;
   margin: 0 auto 3rem;
 }
@@ -196,7 +196,7 @@
 
 .icon i {
   color: white;
-  margin-right: 0.5rem;
+  margin-right: .5rem;
 }
 
 .icon i:hover {
@@ -204,6 +204,6 @@
 }
 
 footer {
-  padding: 1.5rem 0 0.5rem;
+  padding: 1.5rem 0 .5rem;
   text-align: center;
 }
